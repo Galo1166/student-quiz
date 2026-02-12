@@ -130,7 +130,7 @@ export function TakeQuiz() {
                 Question {currentQuestion + 1} of {quiz.questions.length}
               </p>
             </div>
-            <div className={`flex items-center gap-2 px-4 py-2 rounded-lg ${timeLeft < 60 ? 'bg-red-100 text-red-600' : 'bg-blue-100 text-blue-600'}`}>
+            <div className={`flex items-center gap-2 px-4 py-2 rounded-lg ${timeLeft && timeLeft < 60 ? 'bg-red-100 text-red-600' : 'bg-blue-100 text-blue-600'}`}>
               <Clock size={20} />
               <span className="font-semibold">
                 {minutes}:{seconds.toString().padStart(2, '0')}
@@ -153,7 +153,7 @@ export function TakeQuiz() {
       </div>
 
       {/* Time Warning */}
-      {timeLeft < 300 && timeLeft > 0 && (
+      {timeLeft && timeLeft < 300 && timeLeft > 0 && (
         <div className="bg-orange-50 border-b border-orange-200">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center gap-2 text-orange-700">
             <AlertCircle size={20} />
