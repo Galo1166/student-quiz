@@ -87,13 +87,7 @@ export function Login() {
             </p>
           </div>
 
-          <div className="mt-6 pt-6 border-t border-gray-200">
-            <p className="text-sm text-gray-600 mb-2">Demo Accounts:</p>
-            <div className="text-xs text-gray-500 space-y-1">
-              <p>Admin: admin@quiz.com / admin123</p>
-              <p>Student: student@quiz.com / student123</p>
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>
