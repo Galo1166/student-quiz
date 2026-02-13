@@ -4,6 +4,11 @@ import { useAuth } from '../context/AuthContext';
 import { useQuiz } from '../context/QuizContext';
 import { ArrowLeft, Users, Mail, Calendar, BarChart3 } from 'lucide-react';
 
+/**
+ * ManageStudents Component
+ * Displays a list of all registered students with their quiz statistics.
+ * Shows the number of quiz attempts and average scores for each student.
+ */
 export function ManageStudents() {
   const { user } = useAuth();
   const { attempts } = useQuiz();
@@ -23,6 +28,10 @@ export function ManageStudents() {
     setStudents(studentUsers);
   }, [user, navigate]);
 
+  /**
+   * Calculates statistics for a specific student
+   * Returns total quiz attempts and average score percentage
+   */
   const getStudentStats = (studentId: string) => {
     const studentAttempts = attempts.filter(a => a.studentId === studentId);
     const totalAttempts = studentAttempts.length;

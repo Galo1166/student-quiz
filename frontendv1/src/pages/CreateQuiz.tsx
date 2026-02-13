@@ -5,6 +5,11 @@ import { useQuiz } from '../context/QuizContext';
 import { ArrowLeft, Save } from 'lucide-react';
 import { toast } from 'sonner';
 
+/**
+ * CreateQuiz Component
+ * Form for administrators to create a new quiz with title, description, and duration.
+ * After creation, admins can add questions to the quiz.
+ */
 export function CreateQuiz() {
   const { user } = useAuth();
   const { addQuiz } = useQuiz();
@@ -20,6 +25,11 @@ export function CreateQuiz() {
     }
   }, [user, navigate]);
 
+  /**
+   * Handles quiz creation form submission
+   * Validates required fields and creates new quiz
+   * Redirects to admin dashboard on successful creation
+   */
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 

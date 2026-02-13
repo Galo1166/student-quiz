@@ -4,6 +4,11 @@ import { useAuth } from '../context/AuthContext';
 import { useQuiz } from '../context/QuizContext';
 import { ArrowLeft, Calendar, Trophy, FileText } from 'lucide-react';
 
+/**
+ * QuizHistory Component
+ * Displays all quiz attempts for the current student.
+ * Shows scores, dates, and completion status for each quiz.
+ */
 export function QuizHistory() {
   const { user } = useAuth();
   const { attempts, quizzes } = useQuiz();

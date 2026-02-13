@@ -4,6 +4,11 @@ import { useAuth } from '../context/AuthContext';
 import { useQuiz } from '../context/QuizContext';
 import { ArrowLeft, Calendar, Trophy, Filter } from 'lucide-react';
 
+/**
+ * ViewResults Component
+ * Displays all student quiz attempts and results for administrators.
+ * Allows filtering by quiz and sorting by completion date.
+ */
 export function ViewResults() {
   const { user } = useAuth();
   const { attempts, quizzes } = useQuiz();

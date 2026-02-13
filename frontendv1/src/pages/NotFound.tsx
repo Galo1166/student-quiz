@@ -1,6 +1,11 @@
 import { Link } from 'react-router';
 import { Home, AlertCircle } from 'lucide-react';
 
+/**
+ * NotFound Component
+ * 404 error page displayed when a requested route does not exist.
+ * Provides a link back to the login page.
+ */
 export function NotFound() {
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">

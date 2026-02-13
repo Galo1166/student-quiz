@@ -5,6 +5,11 @@ import { useQuiz } from '../context/QuizContext';
 import { Clock, ChevronLeft, ChevronRight, Send, AlertCircle } from 'lucide-react';
 import { toast } from 'sonner';
 
+/**
+ * TakeQuiz Component
+ * Displays quiz questions for students to answer within a time limit.
+ * Handles answer selection, timer countdown, and automatic submission when time expires.
+ */
 export function TakeQuiz() {
   const { quizId } = useParams();
   const { user } = useAuth();
@@ -83,11 +88,20 @@ export function TakeQuiz() {
 
   if (!quiz || !user) return null;
 
+  /**
+   * Handles student answer selection for a question
+   * Updates the answers state with the selected option
+   */
   const handleAnswerSelect = (questionId: string, answerIndex: number) => {
     if (isSubmitted) return;
     setAnswers(prev => ({ ...prev, [questionId]: answerIndex }));
   };
 
+  /**
+   * Handles manual quiz submission
+   * Calculates score based on correct answers
+   * Submits quiz attempt and redirects to results page
+   */
   const handleSubmit = () => {
     if (isSubmitted || hasAutoSubmitted.current) return;
     setIsSubmitted(true);

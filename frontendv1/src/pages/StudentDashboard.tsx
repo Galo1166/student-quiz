@@ -4,6 +4,11 @@ import { useAuth } from '../context/AuthContext';
 import { useQuiz } from '../context/QuizContext';
 import { LogOut, Clock, BookOpen, History, FileText } from 'lucide-react';
 
+/**
+ * StudentDashboard Component
+ * Main dashboard for students displaying available quizzes, quiz history,
+ * completed assignments, and average scores.
+ */
 export function StudentDashboard() {
   const { user, logout } = useAuth();
   const { quizzes, attempts } = useQuiz();
@@ -15,6 +20,10 @@ export function StudentDashboard() {
     }
   }, [user, navigate]);
 
+  /**
+   * Handles student logout
+   * Clears authentication state and redirects to login page
+   */
   const handleLogout = () => {
     logout();
     navigate('/');

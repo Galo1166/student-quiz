@@ -5,6 +5,11 @@ import { useQuiz, type Question } from '../context/QuizContext';
 import { ArrowLeft, Plus, Edit2, Trash2, Save, X } from 'lucide-react';
 import { toast } from 'sonner';
 
+/**
+ * ManageQuestions Component
+ * Allows administrators to add, edit, and delete questions for a specific quiz.
+ * Displays a form to create/edit questions with multiple choice options.
+ */
 export function ManageQuestions() {
   const { quizId } = useParams();
   const { user } = useAuth();
@@ -35,6 +40,10 @@ export function ManageQuestions() {
 
   if (!quiz) return null;
 
+  /**
+   * Resets the question form to initial state
+   * Clears form data and closes add/edit form
+   */
   const resetForm = () => {
     setFormData({
       question: '',
@@ -45,6 +54,10 @@ export function ManageQuestions() {
     setShowAddForm(false);
   };
 
+  /**
+   * Loads question data into form for editing
+   * Populates form fields with selected question details
+   */
   const handleEdit = (question: Question) => {
     setFormData({
       question: question.question,
@@ -55,6 +68,11 @@ export function ManageQuestions() {
     setShowAddForm(false);
   };
 
+  /**
+   * Saves new or updated question to quiz
+   * Validates question and options before saving
+   * Shows success/error toast messages
+   */
   const handleSave = () => {
     if (!formData.question.trim()) {
       toast.error('Question text is required');
@@ -77,6 +95,10 @@ export function ManageQuestions() {
     resetForm();
   };
 
+  /**
+   * Deletes a question from the quiz with confirmation
+   * Shows confirmation dialog before deletion
+   */
   const handleDelete = (questionId: string) => {
     if (confirm('Are you sure you want to delete this question?')) {
       deleteQuestion(quiz.id, questionId);

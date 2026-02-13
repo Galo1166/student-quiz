@@ -5,6 +5,11 @@ import { useQuiz } from '../context/QuizContext';
 import { LogOut, Plus, BookOpen, Users, BarChart3, Edit, Trash2 } from 'lucide-react';
 import { toast } from 'sonner';
 
+/**
+ * AdminDashboard Component
+ * Main dashboard for administrators to manage quizzes, view student results,
+ * and manage student accounts. Displays statistics and quick action buttons.
+ */
 export function AdminDashboard() {
   const { user, logout } = useAuth();
   const { quizzes, deleteQuiz, attempts } = useQuiz();
@@ -16,11 +21,20 @@ export function AdminDashboard() {
     }
   }, [user, navigate]);
 
+  /**
+   * Handles admin logout
+   * Clears authentication state and redirects to login page
+   */
   const handleLogout = () => {
     logout();
     navigate('/');
   };
 
+  /**
+   * Handles quiz deletion with confirmation
+   * Displays confirmation dialog before deleting quiz
+   * Shows success toast message on deletion
+   */
   const handleDeleteQuiz = (quizId: string, title: string) => {
     if (confirm(`Are you sure you want to delete "${title}"?`)) {
       deleteQuiz(quizId);

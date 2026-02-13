@@ -4,6 +4,11 @@ import { useAuth } from '../context/AuthContext';
 import { GraduationCap, UserPlus } from 'lucide-react';
 import { toast } from 'sonner';
 
+/**
+ * Register Component
+ * Provides a registration form for new students to create an account.
+ * Validates password match and minimum length requirements.
+ */
 export function Register() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -18,6 +23,11 @@ export function Register() {
     }
   }, [user, navigate]);
 
+  /**
+   * Handles user registration form submission
+   * Validates password confirmation and minimum length
+   * Creates new user account if validation passes
+   */
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     

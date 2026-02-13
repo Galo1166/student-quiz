@@ -4,6 +4,11 @@ import { useAuth } from '../context/AuthContext';
 import { useQuiz } from '../context/QuizContext';
 import { Trophy, CheckCircle2, XCircle, Home, History } from 'lucide-react';
 
+/**
+ * QuizResult Component
+ * Displays detailed results for a completed quiz attempt.
+ * Shows overall score, answer review, and pass/fail status.
+ */
 export function QuizResult() {
   const { attemptId } = useParams();
   const { user } = useAuth();

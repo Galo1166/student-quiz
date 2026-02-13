@@ -4,6 +4,11 @@ import { useAuth } from '../context/AuthContext';
 import { GraduationCap, LogIn } from 'lucide-react';
 import { toast } from 'sonner';
 
+/**
+ * Login Component
+ * Renders a login form for users to authenticate with their email and password.
+ * Redirects authenticated users to their respective dashboards (admin or student).
+ */
 export function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -16,6 +21,11 @@ export function Login() {
     }
   }, [user, navigate]);
 
+  /**
+   * Handles login form submission
+   * Validates credentials and authenticates the user
+   * Displays success/error toast messages
+   */
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
