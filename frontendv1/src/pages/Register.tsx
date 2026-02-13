@@ -121,6 +121,7 @@ export function Register() {
               />
             </div>
 
+            {/* Submit button: Creates a new student account with provided information */}
             <button
               type="submit"
               className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition flex items-center justify-center gap-2"
@@ -133,6 +134,7 @@ export function Register() {
           <div className="mt-6 text-center">
             <p className="text-gray-600">
               Already have an account?{' '}
+              {/* Link to navigate back to login page for existing users */}
               <Link to="/" className="text-blue-600 hover:text-blue-700 font-medium">
                 Login here
               </Link>

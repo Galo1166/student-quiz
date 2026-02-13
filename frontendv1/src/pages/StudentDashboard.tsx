@@ -46,6 +46,7 @@ export function StudentDashboard() {
                 <p className="font-semibold">{user?.name}</p>
               </div>
             </div>
+            {/* Logout button: Signs out the student and returns to login page */}
             <button
               onClick={handleLogout}
               className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition"
@@ -107,6 +108,7 @@ export function StudentDashboard() {
 
         {/* Quick Actions */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          {/* Link to view all past quiz attempts and historical results */}
           <Link
             to="/student/history"
             className="bg-gradient-to-br from-purple-500 to-purple-600 text-white rounded-lg shadow-md p-6 hover:shadow-lg transition"
@@ -144,6 +146,7 @@ export function StudentDashboard() {
                     </div>
                   </div>
 
+                  {/* Link to start taking this quiz - navigates to quiz questions */}
                   <Link
                     to={`/student/take-quiz/${quiz.id}`}
                     className="block w-full bg-blue-600 text-white text-center py-2 rounded-lg hover:bg-blue-700 transition"

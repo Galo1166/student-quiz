@@ -211,8 +211,9 @@ export function TakeQuiz() {
           </div>
         </div>
 
-        {/* Navigation */}
-        <div className="flex items-center justify-between">
+        {/* Navigation Buttons: Move between quiz questions */}
+        <div className=\"flex items-center justify-between\">
+          {/* Previous Button: Goes back to the previous question (disabled on first question) */}
           <button
             onClick={() => setCurrentQuestion(prev => Math.max(0, prev - 1))}
             disabled={currentQuestion === 0}

@@ -36,6 +36,7 @@ export function ViewResults() {
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center gap-4">
+            {/* Back button: Returns to admin dashboard */}
             <Link to="/admin" className="p-2 hover:bg-gray-100 rounded-lg transition">
               <ArrowLeft size={24} />
             </Link>

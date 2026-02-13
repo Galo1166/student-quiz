@@ -79,6 +79,7 @@ export function Login() {
               />
             </div>
 
+            {/* Submit button: Sends email and password to server for authentication */}
             <button
               type="submit"
               className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition flex items-center justify-center gap-2"
@@ -91,6 +92,7 @@ export function Login() {
           <div className="mt-6 text-center">
             <p className="text-gray-600">
               Don't have an account?{' '}
+              {/* Link to navigate to registration page for new users */}
               <Link to="/register" className="text-blue-600 hover:text-blue-700 font-medium">
                 Register here
               </Link>

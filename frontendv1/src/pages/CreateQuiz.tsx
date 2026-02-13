@@ -56,6 +56,7 @@ export function CreateQuiz() {
       <header className="bg-white shadow-sm">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center gap-4">
+            {/* Back button: Returns to admin dashboard */}
             <Link to="/admin" className="p-2 hover:bg-gray-100 rounded-lg transition">
               <ArrowLeft size={24} />
             </Link>
@@ -128,6 +129,7 @@ export function CreateQuiz() {
           </div>
 
           <div className="flex gap-4 mt-8">
+            {/* Submit button: Saves the quiz details and creates the quiz */}
             <button
               type="submit"
               className="flex-1 flex items-center justify-center gap-2 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition"
@@ -135,6 +137,7 @@ export function CreateQuiz() {
               <Save size={20} />
               Create Quiz
             </button>
+            {/* Cancel button: Discards changes and returns to admin dashboard */}
             <Link
               to="/admin"
               className="flex-1 flex items-center justify-center gap-2 bg-white border border-gray-300 text-gray-700 py-3 rounded-lg hover:bg-gray-50 transition"

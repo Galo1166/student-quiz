@@ -112,6 +112,7 @@ export function ManageQuestions() {
       <header className="bg-white shadow-sm">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center gap-4">
+            {/* Back button: Returns to admin dashboard */}
             <Link to="/admin" className="p-2 hover:bg-gray-100 rounded-lg transition">
               <ArrowLeft size={24} />
             </Link>
@@ -119,6 +120,7 @@ export function ManageQuestions() {
               <h1 className="text-2xl font-semibold">{quiz.title}</h1>
               <p className="text-gray-600">Manage quiz questions</p>
             </div>
+            {/* Button to add a new question to the quiz */}
             <button
               onClick={() => {
                 resetForm();
@@ -142,6 +144,7 @@ export function ManageQuestions() {
               <h2 className="text-xl font-semibold">
                 {editingQuestion ? 'Edit Question' : 'Add New Question'}
               </h2>
+              {/* Close button: Closes the add/edit form without saving */}
               <button onClick={resetForm} className="p-2 hover:bg-gray-100 rounded-lg transition">
                 <X size={20} />
               </button>
@@ -194,6 +197,7 @@ export function ManageQuestions() {
               </div>
 
               <div className="flex gap-4">
+                {/* Save button: Saves the question to the quiz */}
                 <button
                   onClick={handleSave}
                   className="flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
@@ -201,6 +205,7 @@ export function ManageQuestions() {
                   <Save size={20} />
                   {editingQuestion ? 'Update Question' : 'Add Question'}
                 </button>
+                {/* Cancel button: Cancels adding/editing and closes the form */}
                 <button
                   onClick={resetForm}
                   className="px-6 py-3 bg-white border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition"
@@ -221,6 +226,7 @@ export function ManageQuestions() {
           {quiz.questions.length === 0 ? (
             <div className="text-center py-12">
               <p className="text-gray-600 mb-4">No questions added yet</p>
+              {/* Button to create the first question for this quiz */}
               <button
                 onClick={() => setShowAddForm(true)}
                 className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
@@ -241,12 +247,14 @@ export function ManageQuestions() {
                       {index + 1}. {question.question}
                     </h3>
                     <div className="flex gap-2 ml-4">
+                      {/* Edit button: Click to modify this question's text and options */}
                       <button
                         onClick={() => handleEdit(question)}
                         className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg transition"
                       >
                         <Edit2 size={18} />
                       </button>
+                      {/* Delete button: Click to permanently remove this question from the quiz */}
                       <button
                         onClick={() => handleDelete(question.id)}
                         className="p-2 text-red-600 hover:bg-red-50 rounded-lg transition"

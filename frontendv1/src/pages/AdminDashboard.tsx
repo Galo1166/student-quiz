@@ -60,6 +60,7 @@ export function AdminDashboard() {
                 <p className="font-semibold">{user?.name}</p>
               </div>
             </div>
+            {/* Logout button: Signs out the admin user and returns to login page */}
             <button
               onClick={handleLogout}
               className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition"
@@ -133,6 +134,7 @@ export function AdminDashboard() {
 
         {/* Quick Actions */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+          {/* Link to create a new quiz - navigates to quiz creation form */}
           <Link
             to="/admin/create-quiz"
             className="bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-lg shadow-md p-6 hover:shadow-lg transition"
@@ -142,6 +144,7 @@ export function AdminDashboard() {
             <p className="text-xl font-semibold">Quiz</p>
           </Link>
 
+          {/* Link to view all student quiz results and scores */}
           <Link
             to="/admin/view-results"
             className="bg-gradient-to-br from-green-500 to-green-600 text-white rounded-lg shadow-md p-6 hover:shadow-lg transition"
@@ -151,6 +154,7 @@ export function AdminDashboard() {
             <p className="text-xl font-semibold">Student Results</p>
           </Link>
 
+          {/* Link to view and manage all registered students */}
           <Link
             to="/admin/manage-students"
             className="bg-gradient-to-br from-purple-500 to-purple-600 text-white rounded-lg shadow-md p-6 hover:shadow-lg transition"
@@ -211,6 +215,7 @@ export function AdminDashboard() {
                         </div>
                       </div>
                       <div className="flex gap-2 ml-4">
+                        {/* Link to manage and edit questions for this quiz */}
                         <Link
                           to={`/admin/manage-questions/${quiz.id}`}
                           className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg transition"
@@ -218,6 +223,7 @@ export function AdminDashboard() {
                         >
                           <Edit size={20} />
                         </Link>
+                        {/* Delete button: Removes this quiz permanently from the system */}
                         <button
                           onClick={() => handleDeleteQuiz(quiz.id, quiz.title)}
                           className="p-2 text-red-600 hover:bg-red-50 rounded-lg transition"
