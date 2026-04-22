@@ -1,0 +1,302 @@
+﻿NORTHWEST UNIVERSITY KANO
+FACULTY OF COMPUTING
+DEPARTMENT OF INFORMATION AND COMMUNICATION TECHNOLOGY (ICT)
+
+SIWES TECHNICAL REPORT
+
+TITLE:
+INDUSTRIAL TRAINING TECHNICAL REPORT ON DOCUMENTATION, DIGITAL OFFICE TOOLS, AND ADMINISTRATIVE SUPPORT AT DIVINE FOUNDATION CONSULTANCY
+
+PREPARED BY:
+MUSA MINKAILA TASIU (UG22ICT1065)
+
+SUPERVISOR:
+MAL. HARUNA DANLAMI IBRAHIM
+
+PLACE OF ATTACHMENT:
+DIVINE FOUNDATION CONSULTANCY
+
+SIWES DURATION:
+22 SEPTEMBER 2025 TO 20 MARCH 2026
+
+ACADEMIC SESSION:
+2025/2026
+
+A REPORT SUBMITTED TO THE DEPARTMENT OF ICT, FACULTY OF COMPUTING, NORTHWEST UNIVERSITY KANO, IN PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE STUDENT INDUSTRIAL WORK EXPERIENCE SCHEME (SIWES).
+
+DATE OF SUBMISSION:
+APRIL 2026
+
+# CERTIFICATION
+This is to certify that this SIWES Technical Report was carried out by Musa Minkaila Tasiu (UG22ICT1065) at Divine Foundation Consultancy and submitted to the Department of Information and Communication Technology, Faculty of Computing, Northwest University Kano, in partial fulfillment of the award requirements for the Bachelor degree in ICT.
+
+Studentâ€™s Name: Musa Minkaila Tasiu
+Signature/Date: _______________________
+
+Industry-based Supervisor: _______________________
+Signature/Date: _______________________
+
+Departmental SIWES Supervisor: Mal. Haruna Danlami Ibrahim
+Signature/Date: _______________________
+
+Head of Department: _______________________
+Signature/Date: _______________________
+
+# DEDICATION
+This report is dedicated to Almighty Allah, my parents, my lecturers, and everyone who supported me throughout my SIWES period.
+
+# ACKNOWLEDGEMENT
+I sincerely thank Almighty Allah for the strength, wisdom, and health granted to me throughout this training period. I appreciate the management and staff of Divine Foundation Consultancy for giving me the opportunity to learn in a practical environment.
+
+My special appreciation goes to my departmental supervisor, Mal. Haruna Danlami Ibrahim, for his guidance and encouragement. I also appreciate the Department of ICT, Faculty of Computing, Northwest University Kano, for organizing the SIWES programme and ensuring students gain industry exposure.
+
+Finally, I thank my family and friends for their prayers, support, and motivation during this period.
+
+# ABSTRACT
+This technical report presents my six-month industrial training experience at Divine Foundation Consultancy under the Student Industrial Work Experience Scheme (SIWES). The training exposed me to practical office and ICT-related tasks including document preparation, formatting, report writing, spreadsheet operations, presentation design, and administrative support. The programme helped me understand workplace ethics, improve communication, and apply classroom knowledge to real organizational tasks. The report discusses the history and structure of SIWES, the background of the training organization, skills and experiences gained, and recommendations for improving future industrial training for students.
+
+# TABLE OF CONTENTS
+Chapter One: Introduction of SIWES
+Chapter Two: History of Industrial Training Place
+Chapter Three: Skills and Experience Acquired
+Chapter Four: Summary, Conclusion and Recommendations
+References
+# Appendices
+
+# LIST OF TABLES
+Table 1.1: Objectives of SIWES and Expected Student Outcomes
+Table 2.1: Services Offered by Divine Foundation Consultancy
+Table 3.1: Skills Acquired, Tools Used, and Practical Outcomes
+
+# LIST OF FIGURES
+Figure 2.1: Organizational Structure of Divine Foundation Consultancy
+Figure 3.1: Document Processing Workflow Used During Training
+
+# CHAPTER ONE
+## INTRODUCTION OF STUDENTS INDUSTRIAL WORK EXPERIENCE SCHEME (SIWES)
+
+## 1.0 History of Industrial Training Fund (ITF)
+The Industrial Training Fund (ITF) was established by the Federal Government of Nigeria in 1971 to promote and encourage the acquisition of practical skills for national development. Before the creation of ITF, many graduates possessed theoretical knowledge but had limited practical exposure to the real work environment. ITF was therefore introduced to strengthen manpower development and make education more responsive to industry needs.
+
+The Fund supports industrial skills development through training programmes, partnerships with institutions, and policy implementation aimed at improving productivity in both public and private sectors.
+
+### 1.0.1 The Governing Council of Industrial Training Fund
+The ITF Governing Council consists of representatives from government ministries, employersâ€™ associations, organized private sector bodies, and labour unions. This council formulates policy direction, approves strategic programmes, and oversees implementation to ensure ITF achieves its mandate effectively.
+
+## 1.1 Mission and Vision of Industrial Training Fund
+
+### 1.1.1 Mission Statement
+To promote and develop human capacity for industry and commerce through skills training and practical competence development.
+
+### 1.1.2 Vision Statement
+To become a world-class institution for human capital development through practical and industry-driven training.
+
+## 1.2 Student Industrial Work Experience Scheme (SIWES)
+SIWES is one of ITFâ€™s key programmes, designed to expose students in tertiary institutions to practical work in industries relevant to their fields of study. It connects classroom instruction with workplace realities, helping students build confidence, technical competence, and professional behavior before graduation.
+
+### 1.2.1 Aims of SIWES
+- To bridge the gap between theoretical learning and practical application.
+- To expose students to industrial tools, methods, and professional standards.
+- To build employability skills and career readiness among students.
+
+### 1.2.2 Objectives of SIWES
+- To provide hands-on experience in real work settings.
+- To improve problem-solving and technical capacity in students.
+- To develop positive work attitude, discipline, and teamwork.
+- To help institutions receive industry feedback for curriculum improvement.
+
+## 1.3 Role of Institutions in the Management of SIWES
+Institutions play major roles in SIWES management:
+- Placing students in suitable organizations.
+- Monitoring and supervising students during training.
+- Providing orientation on SIWES expectations and ethics.
+- Assessing students through logbooks, reports, and supervisor feedback.
+
+## 1.4 Roles of Students in SIWES Programme
+Students are expected to:
+- Attend work regularly and be punctual.
+- Maintain SIWES logbooks and record daily activities.
+- Follow organizational rules and professional ethics.
+- Show commitment, curiosity, and willingness to learn.
+- Prepare and submit comprehensive technical reports after training.
+
+## 1.5 Some Impacts of SIWES
+SIWES has notable impacts on students and institutions. It improves practical competence, communication skills, digital literacy, time management, and workplace confidence. It also helps students understand organizational hierarchy, reporting channels, and professional conduct.
+
+## 1.6 Summary
+This chapter explained the background of ITF and SIWES, including their mission, objectives, and importance in student development. SIWES remains an essential component of higher education because it prepares students for effective transition into the labor market.
+
+Table 1.1: Objectives of SIWES and Expected Student Outcomes
+
+| SIWES Objective | Expected Outcome for Student |
+|---|---|
+| Hands-on practical exposure | Improved technical competence |
+| Industry familiarity | Better understanding of workplace culture |
+| Skill acquisition | Increased employability after graduation |
+| Professional development | Improved communication, teamwork, and discipline |
+
+# CHAPTER TWO
+## HISTORY OF INDUSTRIAL TRAINING PLACE
+
+## 2.0 Brief History of Industrial Training Place
+Divine Foundation Consultancy is a service-oriented consultancy organization involved in documentation support, office productivity services, digital record processing, and training. The firm provides support for students, educational organizations, and private clients requiring accurate, timely, and properly formatted documents.
+
+The organization has built a reputation for reliability in report preparation, data handling, and administrative support, making it a suitable environment for SIWES students in ICT and related disciplines.
+
+## 2.1 Mission and Vision of Industrial Training Place
+
+### 2.1.1 Mission Statement
+To deliver accurate, efficient, and technology-driven consultancy and documentation services that meet client needs.
+
+### 2.1.2 Vision Statement
+To become a leading consultancy center recognized for excellence in documentation, digital office operations, and client service.
+
+## 2.2 Services Offered by Industrial Training Place
+The major services offered include:
+- Academic and administrative report typing/formatting.
+- Spreadsheet preparation and data arrangement.
+- Presentation design and slide preparation.
+- Document editing, proofreading, and printing support.
+- General office and records management assistance.
+- Basic digital skills support for clients and interns.
+
+## 2.4 Industrial Training Place Organogram
+The organization operated with a simple but effective structure that enabled proper supervision of SIWES students and efficient task delegation.
+
+Figure 2.1: Organizational Structure of Divine Foundation Consultancy
+
+Manager/Director
+  |
+Administrative Supervisor
+  |
+ICT/Documentation Personnel
+  |
+SIWES Students/Interns
+
+Table 2.1: Services Offered by Divine Foundation Consultancy
+
+| Service Area | Description | Typical Tools |
+|---|---|---|
+| Report Writing Support | Formatting and structuring technical/academic reports | Microsoft Word |
+| Data Processing | Tabulation and calculations for records | Microsoft Excel |
+| Presentation Development | Slide preparation for seminars/defense | Microsoft PowerPoint |
+| Documentation Assistance | Typing, editing, and printing support | Office tools and printers |
+
+## 2.5 Summary
+This chapter described Divine Foundation Consultancy, its mission and vision, service areas, and structure. The organization provided a practical environment where I could apply and improve ICT-related documentation and office productivity skills.
+
+# CHAPTER THREE
+## SKILLS AND EXPERIENCE ACQUIRED DURING THE SCHEME
+
+## 3.1 Skills Acquired
+
+### 3.1.1 Typing and Keyboard Mastery
+I significantly improved my typing speed, accuracy, and familiarity with document shortcuts, which increased productivity.
+
+### 3.1.2 Microsoft Word for Professional Documentation
+I learned practical formatting skills such as styles, automatic table of contents, pagination, headers/footers, section breaks, captions, and referencing.
+
+### 3.1.3 Microsoft Excel for Data Management
+I gained skills in cell formatting, basic formulas, sorting/filtering, and simple data analysis for administrative records.
+
+### 3.1.4 Microsoft PowerPoint for Presentation Design
+I learned to create clear and professional slides, using consistent themes, charts, and visual hierarchy for better communication.
+
+### 3.1.5 Report Writing and Technical Organization
+I improved in arranging reports using proper chapter structure, clear language, and logical flow.
+
+### 3.1.6 File Organization and Digital Record Keeping
+I learned naming conventions, folder structure planning, backup habits, and secure handling of client documents.
+
+## 3.2 Experiences Gained
+
+### 3.2.1 Preparation of Institutional and Clinical Reports
+I participated in formatting and proofreading reports for educational and healthcare-related documentation tasks.
+
+### 3.2.2 Typing and Formatting of Examination/Administrative Materials
+I assisted in typing and arranging examination materials and official internal documents.
+
+### 3.2.3 Administrative Support Activities
+I carried out photocopying coordination, document collation, and office support under supervision.
+
+### 3.2.4 Working Under Supervision and Deadlines
+I gained experience in receiving instructions, clarifying tasks, and meeting delivery timelines.
+
+### 3.2.5 Professional Communication and Time Management
+I improved my communication with supervisors and clients while learning to prioritize multiple tasks.
+
+Figure 3.1: Document Processing Workflow Used During Training
+
+Task Request
+  |
+Draft Preparation
+  |
+Formatting and Editing
+  |
+Supervisor Review
+  |
+Final Correction
+  |
+Printing/Softcopy Delivery
+  |
+Filing and Archive
+
+Table 3.1: Skills Acquired, Tools Used, and Practical Outcomes
+
+| Skill Area | Tool/Platform | Practical Outcome |
+|---|---|---|
+| Document formatting | Microsoft Word | Professional reports and letters |
+| Data arrangement | Microsoft Excel | Accurate tabulation and records |
+| Presentation design | Microsoft PowerPoint | Well-structured slides |
+| File management | Windows File System | Better organization and retrieval |
+| Work planning | Daily task schedule | Improved punctuality and deadlines |
+
+# CHAPTER FOUR
+## SUMMARY, CONCLUSION AND RECOMMENDATIONS
+
+## 4.0 Summary
+The SIWES programme at Divine Foundation Consultancy provided practical exposure that complemented my ICT academic training. I developed key competencies in documentation, office productivity tools, digital file management, and workplace communication. The training improved my confidence in handling real tasks and collaborating in a professional environment.
+
+## 4.1 Conclusion
+The industrial training was highly beneficial to my academic and professional development. It helped me bridge the gap between classroom learning and practical application. I now have stronger technical and interpersonal skills that will support my future career in ICT and related fields.
+
+## 4.2 Recommendations
+- SIWES students should be assigned structured tasks that increase in complexity over time.
+- Organizations should provide regular mentorship meetings for interns.
+- Institutions should strengthen periodic supervision to ensure training quality.
+- Students should receive pre-SIWES workshops on workplace communication and reporting tools.
+- ITF and institutions should encourage digital skill certification alongside SIWES.
+
+# REFERENCES (APA STYLE)
+
+Aina, O. (2013). Industrial training and manpower development in Nigeria. Journal of Education and Practice, 4(5), 12-18.
+
+Federal Republic of Nigeria. (1971). Industrial Training Fund Act.
+
+Industrial Training Fund. (2024). SIWES operational guidelines for students and institutions. ITF Publications.
+
+National Universities Commission. (2021). Benchmark minimum academic standards for computing programmes. NUC.
+
+Okorie, J. U. (2000). Developing Nigeriaâ€™s workforce through school-industry collaboration. Nigerian Journal of Technical Education, 7(2), 44-53.
+
+# APPENDICES
+
+## Appendix A: SIWES Daily Logbook Snapshot (Sample)
+
+| Date | Task Performed | Supervisorâ€™s Remark |
+|---|---|---|
+| 23/09/2025 | Introductory briefing and workstation setup | Satisfactory |
+| 01/10/2025 | Typed and formatted administrative memo | Good progress |
+| 15/10/2025 | Spreadsheet data entry and correction | Accurate |
+| 05/11/2025 | Presentation slides preparation | Very good |
+| 10/01/2026 | Report editing and final formatting | Excellent |
+
+## Appendix B: List of Common Software Used
+- Microsoft Word
+- Microsoft Excel
+- Microsoft PowerPoint
+- PDF tools and printing utilities
+
+## Appendix C: Evidence Placeholders for Figures
+- Photograph of office working environment (Figure evidence).
+- Screenshot of formatted report or spreadsheet dashboard (Figure evidence).

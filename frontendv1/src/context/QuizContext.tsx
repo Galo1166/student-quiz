@@ -69,7 +69,7 @@ export function QuizProvider({ children }: { children: ReactNode }) {
         };
         const defaultStudent = {
           id: 'student1',
-          name: 'John Doe',
+          name: 'Musa Minkaila Tasiu',
           email: 'student@quiz.com',
           password: 'student123',
           role: 'student',
